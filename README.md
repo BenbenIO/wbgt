@@ -35,10 +35,11 @@ The following code do the average on each day. I used the fact the date and each
 Finally, we update the data file with the today's data (or create a new one if there is no file)
 
 <img src="/images/update.JPG" width="450">
+
 # After few days
 We can have a graphic of the WGBT updated:
 
-<img src="/images/graph.JPG" width="450">
+<img src="/images/graph.JPG" width="400">
 
 In this repository, you can find the python script. 
 Do not hesitate in you have any question or advice :)
