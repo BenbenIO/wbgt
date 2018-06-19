@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
 
-#URL creation:
+#Get the page:
 site_url='http://www.wbgt.env.go.jp/graph_ref_td.php?region=03&prefecture=44&point=44132'
 page=requests.get(site_url)
 soup=BeautifulSoup(page.text,'html.parser')
